@@ -1,0 +1,18 @@
+to host the web page 
+
+python -m http.server 5500 --directory "D:\AI_Hand_Gesture_Project\GestureMusic-starter\GestureMusic\frontend"
+
+
+web page link
+
+
+http://localhost:5500?utm_source=chatgpt.com
+
+
+to stop the backend
+
+Ctrl + c
+
+to host the back end
+
+python -m uvicorn app:app --app-dir "D:\AI_Hand_Gesture_Project\GestureMusic-starter\GestureMusic\backend" --reload --port 8000
